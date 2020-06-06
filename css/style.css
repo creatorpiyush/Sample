@@ -1359,8 +1359,8 @@ select.portfolio-filter-mobile {
 
 .scroll-down {
   position: absolute;
-  bottom: 40px;
-  left: 0;
+  top: 100px;
+  left: 0px;
   width: 100%;
   z-index: 1;
 }
@@ -2434,6 +2434,8 @@ body {
 }
 @media only screen and (max-height: 500px) {
   .scroll-down {
+    top: 150px;
+    /* height: 500px; */
     display: none;
   }
 }
